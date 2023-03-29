@@ -1,0 +1,160 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1140,1461.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="46">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="539.2,1396.8" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="Sign-In&#xD;&#xA;- May want to align that we ask user to sign in then run?" DisplayName="Group" sap:VirtualizedContainerService.HintSize="496,1307.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: DMS" sap:VirtualizedContainerService.HintSize="433.6,1151.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="364e7c70-efc2-4541-9689-e84588026480" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="377.6,934.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ClickType="Single" DisplayName="Click 'click here'" sap:VirtualizedContainerService.HintSize="334.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="364e7c70-efc2-4541-9689-e84588026480" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://dms-prod.hpcloud.hp.com/login" DesignTimeRectangle="559, 334, 71, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'click here'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='txtColor' aaname='click here' check:innerText='click here' /&gt;" Guid="9eed73e7-e045-47d2-9d78-a5cd8f7ccbf0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEsAAAAaCAYAAAD/nKG4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKMSURBVFhH7Ze9b9pAGIf5ExizZszIyMrYkZE1I38Ca0bGCIFQI1XIU+UFNe3SRGWpWqlNqxDZMilEpiikIECBICMS8utrn8NnfOdrK6Vq75Es3ct7rw8/94GJVKtVqCvcFYEiNEqWBEqWBEqWBEqWBL8tSy8biJS7LOj1oTVuWFuAW5eojPyIRxfpXA3ZKz98Qv6orMb7c0SLTRx5EZ//XpYM/66s8QBZ3cJWjsTkTSRed9CYsdSyLKNSQ6TUguFFhKBuLms2RFYzsFPuoO3nFzBZe18vkTqg+9C9tktNHI79NDGwviPp57YOGthv3fkZVpup2IjlF+MF9+cTQtZo8SBTCod9ZCiOH1972WBZ4jr25SfUNhHVWjjZEOXiPrBBedregzs4NAF7JRL2ps/Sly0k8iTTviXptzA+1rFduIDuuMmHWht6y0F7ci/oz0csy24ilqtDW76Z3Ub6XRdtagbKClGXqAxxQjXRIn3ZpZWyivvAFjK2HxLeOCS3gXvvPrG3bAIY18jQqkmbbnu9VtSfj1jW2QUiL2jW/XCdQFkh6uIv64jTzKe+8KaVbaXlM2sxDq1eWmXudlq/0mduz/VaUX8+TyrL23qWjR3hyuLLSn4Ikv24rOD+fH5tG7rvU9YQA2oGygpRx86sKQ5fmXS2db3PN+HJmkLTSbreWa2d0dnksV4r6s/nLzjgiXEHuwUTu6cTFq/Ak0V8o5WZM5H6NIJDZ5Jz9QOp5+fY77nJzVp+fz4hZBErrwAWkse9+U98sCxCUDeXRQw+1xHN00rc2I4CWfTAbbOJZ0Uag8aJFmpInz78i3hEFrc/n3CyFB5KlgRKlgRKlgRKlgRKlgRKlgRKlgRKVmiAn2OrIxHKjcOjAAAAAElFTkSuQmCC" InformativeScreenshot="d9687a2d2791ccefa8a6aac5fbb473dc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='DMS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ClickType="Single" DisplayName="Click 'UID-PROD'" sap:VirtualizedContainerService.HintSize="334.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="364e7c70-efc2-4541-9689-e84588026480" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://dms-prod.auth.us-west-2.amazoncognito.com/login?redirect_uri=https%3A%2F%2Fdms-prod.hpcloud.hp.com%2F&amp;response_type=token&amp;client_id=4mk7lsig3n0oseruabfll46f42&amp;identity_provider=COGNITO&amp;scope=email%20profile%20openid&amp;state=MIOXTZLKeJQi4leVNfaCyS6L805UBzSk" DesignTimeRectangle="785, 298, 320, 40" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'UID-PROD'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl class='btn btn-info idpButton-customizable' tag='INPUT' type='button' aaname='UID-PROD' check:text='UID-PROD' /&gt;" Guid="4bd26ce1-e308-49ed-a273-975d4c09605a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAUQAAAAsCAYAAAAdOsFFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKlSURBVHhe7drBSuNQFIDhebpZuHTpPMc8io8ijAth1r6AoDKCuNJNFRcKwp2e5CRt2ptWW93E78C3mCQ3ucLwk2p/FGOMMc0IojHG5AyCePn4Un6f35WD06vy888lwCRF46J10bzl6YMYJ+Kiw7PrcvT3X/kFMFHRuGhdNG85in0Qo5ZxQW0xwBRF86J93fRBjFJ6MwS+k2hetK+bPojxubq2AGDKon3dCCLwrQkiQBJEgCSIAEkQAZIgAiRBBEiCCJAEESAJIkASRNJ9OX8t5ea2cu52fqK8lpOl62YP93m+/XdtqvcamJWbvHZ1FmvH719en8vx2j0r1z/Ntl+Ts33PTJkgktpI7BrEtXUXz2U2X7U5MBHEt3J+sXJ8sHZsXxm15djlutUAnjzFwW7/YZ89M2WCSBoLz9wuQQyDdTUjQZyLiLXP2HVfQ00U+1Dus2emTBBJu4Znw7oNwdt2/sNBbN7uNjyrOT/8GXbbM1MmiKSvCOKmc2EkPs3zuuNj92iP9299W9/slp+1z56ZMkEkbQjBlwaxPos17T2qs/y7QkHkEwgiaUMIdg7iIkLHD2/tf66c9vqRN8SB9fu391pZ5yMzn0AQ6S1+bzc83gSo/4rLB4L4obe2MfX7j/3luLb/4I8qvIcgstDEYDVQEa31AG4N4ru+wrJ7ELt9Db6LmM/0tRt2JYgMdVFZmmEg6kFcn/d87NwniHPVAFb2sxLI/fbMlAkiQBJEgCSIAEkQAZIgAiRBBEiCCJAEESAJIkASRIAkiACpGsSD06tyVLkYYKqiedG+bvog/j6/K4dn19VFAFMUzYv2ddMH8fLxpSllXOBNEZiyaFy0LpoX7eumD2JMnIhaxkXxuRpgiqJx0brlGMYMgmiMMd95BNEYY5op5T9OfsGZGKs2gwAAAABJRU5ErkJggg==" InformativeScreenshot="44ab250fdd56fcdd06f16d5bce1ca9cb.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Signin' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <If sap:VirtualizedContainerService.HintSize="334.4,316" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Then>
+                  <Sequence sap:VirtualizedContainerService.HintSize="300,82.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence sap:VirtualizedContainerService.HintSize="300,82.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAeCAYAAAA/xX6fAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxEAAAsRAX9kX5EAAALASURBVEhLlZY/aFNRFMaDYmlt0zyTULXWpopO4h8cRbGD4OLQQRDpEsTJqYudOhQc7BgcnByKg5NiFVwUJIKD4mBFUAeHWiqOxgougtfzJe/cntx89730wA/67nv5vvb1fCen4Jzrm0NHjs8Iy0Jrx2D539Dovq/F8sRt9mwMemgR8VNCAyaCUwoDiQfmu0v735cqB68wDQs9FMEpYVFYU4MQa2jZOVT5O5yMN0vVybNM2/8gIokwJ6yqaIyrs9fc9IVL1NCya7j6Z2TP+OOkOlnzhiJQF1asYB5v3r5zK0+fUZMYg8W9P4rlA/dgSEVjnDt/UX7RTk0dPUHFM2GiWTx89CS1c275/gMumoWINEPRGCdPn0mtOtVq/XLJWI0LEwZGxn5uy7Bx525qtVWLt5aoOEMNkTFqELK5+Tu12aq1b+tUnIGswhB5owaWm/MLqYVzGxvf20Za9es3qEEI8glDjCtqYoGJFsxhorX64SM1CMEYhOF0KB6CoGvhtaJ50CxoGq1+BsFoZWIOhhhj1EhB0LUQC5xBALHQ6mcQYNzpWOsxUWzQUbjGOQQQfFt5g0CqM0tFoOubwGKDjv8jXq/OUmCbJ2sQ4BtFHvGGNIth0PMqaxAgg/KIN6TDmwU9r2KDAMNbbntDmkUb9E+fv7SbR2m+eu1BLLRigwAZlNtxQxt0FF6vvW/FwuZhgyA07MmiDbpGwRIKIhZabBAgg3KLG9qgo3Bt74NQcObybPp0p8JBEBpivfBiz1+8bH8Ihb/U3lOsmGIjEg4CXTPahkBEcncZixXLA7uN+njD1BT7TXRTszDhEGxw2GOsR5chEDG8XnRtdPoAZqBgqqAr7bamdF1YRBTG2LK3ZYhtnBkp9NAi4vg26Rl9oRFGV2z5tdBDhpggOr6x1AgNoS3fD/QwCzGr1w4fW2cNkY8r/Aec+ne+oeIc1AAAAABJRU5ErkJggg==" InformativeScreenshot="5a38d4533823a8692ae011fbd0a37897.jpg" Selector="&lt;html app='msedge.exe' title='DMS' /&gt;" Url="https://dms-prod.hpcloud.hp.com/login" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </ueab:SequenceX>
+</Activity>
