@@ -1,0 +1,207 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="728,2481.33333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="704,2416.66666666667" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: DMS" sap:VirtualizedContainerService.HintSize="662,2329.33333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e65a4cb9-11a5-4a32-992d-acefc59be852" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="628,2110" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'click here'" sap:VirtualizedContainerService.HintSize="586,159.333333333333" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e65a4cb9-11a5-4a32-992d-acefc59be852" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://dms-prod.hpcloud.hp.com/login" DesignTimeRectangle="596, 353, 107, 33" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'click here'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='txtColor' aaname='click here' check:innerText='click here' /&gt;" Guid="9c22188d-6aad-45ca-bcb3-05ccbf6ecec4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG8AAAAlCAYAAABMBrdqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQpSURBVHhe7ZjPSxtBFIDzZ3j16LHHXnPM0WOuPXr06DXHHEWUUBElpQg5GGhFxIIIoYXWHtSEJGZFI0YiNqitCa3y+t7M22zMTpJ96c+B+WBRXjZvZ+abzLzZ2MHBAbjLzisGDmtx8izGybMYJ89inDyLcfIsxsmzGCfPYv6gvBvIrhUhtuBBgSOaH9C+6/D/cgp5ylmGbJMDIi4htYDfXzuDBkds5q/LK26XMFaEmU9fOSLDyQv46/K83TJMLJQgVR7v1+fkBfyDZfPXcPICnDyLGU/eVQPm18vwfJEGsggTS2WY2W5A65E/V5jlNfbK6jupIw74fL+Bne0qTGd0zhjmTqyfQOH6gW/QGOU9tiCb1d9L7n7hoIlAnnet+zDFfZhaqUH25J7v64P76987malA6v3V0/42z2Cacucb4H2oQWKJ7q1A7po/J6LkESCW1z4+gQQ9HK9kzoP0Ww9mlSSUmMVB6TZEIK9zBfOrOsdUtqZypnNlmKTBWKxA9jIQGJZ3jzFdBA0XR7C8TElNvKmVKsxR+1H8hHpWFd60+FamfeRBXPUXJ2ie+luDmRVqQxGe5y+hzfd15b3E3Ph3YqkE8eUq5LidkfMIkMl7vIL0S2oADuj5Dw4S97C/qaW8eH/HsajyHmB/yzz4aqJgPPaqDv6YPpUXiEtsNSMMAMvDgmnu8y3HiAfw3ul2JQs98Q7eTyvB2ikUv3FMgc/doOeWIF3hieXLo2LssK+SluQRIJOHs4dm6LNNw4bTuYBZanzuggcxorxH7BjNyMwJ7IeWjw7s5ChHFXa4OA3k4YDvVVR7os9clreKKwRHumDfqF0xzOXT+lBVsdnPhsq4fgpx/Cz+jtdFX95GeDcV5REgkucPvLERISLK8zvdlT4cX978nqeWp9j6uWDPYHmmgsUgTz9rxOXf393zgu/7iPIIGEteqNgwIpQXsfHBQJRgek0vOamjAYVGiHHklSC5ofd24/WRl/qR8iLmETCWvLnDKOuzUJ5huTHhy0vu4S5IewntwZkaFJ7sJYMYT176mAPDiCAvUh4Bv2/Pw70rvYwVVg6XMRX4HXueLmbiy7VuFagHoqfaxD2Dipqnle4gZPL8thr7288QeaI8AmTyeqvNnvKdXjZ7u7p4+KVqk35NvZyfQZLEDqw2CSxcdnXOxMhNXyYPWucwQ8/H56UrfUvzbQNSr3HC3fZVmwZ5ojwCZPKQdsVwzuNz0iQO8ljnvG9NSIfOeRV9mMWJkht6zkO6h/RR+59QHkLnM1UY4ZVYH9K2YfKQyHkEiOUp+t6wmN8UCOQRoTcsJXiRr0Oxb0Ya5RHNuv6V0kF74CyWy1P0vRmhA3iobSPkKaLkETCePMd/gZNnMU6exTh5FuPkWYyTZzFOnsU4eRbj5FmMk2cxTp7FOHnWAvATZuKBsijfaaMAAAAASUVORK5CYII=" InformativeScreenshot="c2521bf7f536ecdbc2be2d9b4879c864.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='DMS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'UID-PROD'" sap:VirtualizedContainerService.HintSize="586,159.333333333333" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e65a4cb9-11a5-4a32-992d-acefc59be852" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://dms-prod.auth.us-west-2.amazoncognito.com/login?redirect_uri=https%3A%2F%2Fdms-prod.hpcloud.hp.com%2F&amp;response_type=token&amp;client_id=4mk7lsig3n0oseruabfll46f42&amp;identity_provider=COGNITO&amp;scope=email%20profile%20openid&amp;state=pVUOYKbDLRBmR5s6TuB8b2ISgsr33OyK" DesignTimeRectangle="689, 389, 480, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'UID-PROD'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl class='btn btn-info idpButton-customizable' tag='INPUT' type='button' aaname='UID-PROD' check:text='UID-PROD' /&gt;" Guid="718d8074-c78e-4af4-96d9-7a7cd33167b1" ImageBase64="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" InformativeScreenshot="88767fee8a593cfdd6fbe079d63874a1.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Signin' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[string.Format(&quot;{0}\Masterfile&quot;, System.IO.Directory.GetCurrentDirectory())]" sap:VirtualizedContainerService.HintSize="586,1621.33333333333" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+              <ui:ForEachFileX.Body>
+                <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="552,1356.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510,1066.66666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" WorkbookPath="Masterfile\Document Masterlist Rev DN.xlsx">
+                      <ueab:ExcelApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,788.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="434,698.666666666667" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_3" Range="[Excel.Sheet(&quot;Masterlist&quot;)]" SaveAfterEachRow="False">
+                              <ueab:ExcelForEachRowX.Body>
+                                <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                                  <ActivityAction.Argument1>
+                                    <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                                  </ActivityAction.Argument1>
+                                  <ActivityAction.Argument2>
+                                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                  </ActivityAction.Argument2>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,510" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,220.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="e65a4cb9-11a5-4a32-992d-acefc59be852" Text="[CurrentRow.ByField(&quot;Document No&quot;)]" Version="V3">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://dms-prod.hpcloud.hp.com/home" DesignTimeRectangle="705, 312, 232, 57" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control col-md-5 ng-untouched ng-pristine ng-valid' aaname='' /&gt;" Guid="356ed083-4d9f-4ad7-846a-1cf6e8026487" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOwAAAA9CAYAAACusYWeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUvSURBVHhe7dv5UxRHGMZx/uCcVlCUICAQFIwKJgoYAZXLCCiHCMYrRSWaBDkExEIOKVTuU2UXCnjdp7d7nYWFkErtZN7U86maorZ3dvAHvts9hylCRGowWCJFGCyRIindA8PCjRu3YG8pF55HNxuuGSSi4GGwRIowWCJFGCyRIgyWSBEGS6QIgyVShMESKcJgiRRhsESKMFgiRRgskSIMlkgRBkukCIMlUoTBEinCYIkUYbBEijBYIkUYLJEiDPaAep4NymepGdL2y0M7QuQ/34Ld3t6WFy9H5fT5UvnqaLb54089nicV1T/LzOy83Su4GCwFgS/BItY7kT/0zw8fl28ycqWsskau1jXIhZ+umngPHTshXT3P7N7BxGApCHwJdmTslRxKz4nMrmXy/sMHOxr1+u2UZOSdlqyTZ2VhccmOBg+DpSDwJdhHnY/3/WNvbLljZt++gSE7IhIOh6WhuU2OZOabz+InXmPcC8tpLKsxS2M/LLPrGpplLRSye4iEQmE58+Ml88XQ3TcgJwrOxf0+rAAww2efio5/cSRTCotLZHhkzLwPsWDvPpA/nvbKt7mF5jVWDE1td2V9Y8PuSZQ8vgSLMBACwtrc3LSjn7yZmpa/uvtkcWnZvF5bC8m5i5dNhOVV16Xjwa9mdsYxikrKTYAw9mrChHw48zupb2qTx38+ldKKahOcdz8X7JdpWeaYiBrxDg4Nxy3XMYYvDxwLx8Ry3S3VXbBpWfnm81jWV9bcMJ8xIXPmJR/4EqwL0AX3cnRctra27LvxENDN1nZJzciLm+Ewfjsyu+EYT7p6zBjCwqyI4znYD+OIE0GCCxafxTG8v3t8YtL8Lvz78O905uYXJDP/jBQUlZhxF2x2ZOk+Mztn98IMPyfpOQXmC8U7qxMlgy/BwvLKqlwsv2aiwR8+Zq8fyipNVN6AVt+9l5zCIimpqNo1G7u4auub7EhiLi78BBcslrFuFncwMyLu/sEXduSTm60dkvf9+ch59nTsmK0d9+27Ue7YmGmXllfsKFFy+BasgwtLjS3tsXNAbDinxLIYXJTuvUQblsnO2+kZs9TGMnXnfjuDTRQVjpWWdTL2+/figt259GWw5Cffg/VCvFXXG805Z25hsaysvosFW1ZZbc5rE22j4xPm8+4cFrHce9RpXiOa3550/aNgDxIbg6UgSHqwWNYODY+YC0+JrqTinLPmxi0TAy7wuGC9s2giG5FjYUmN80fvOSW4uDjD0v9N0oMNr6+bCzqYCSffTNnReIgAMeBq8OzcvByLRIhl8krkvHcveA8XhRALovHC1eKDBrvfOSwubtU2NJsLUAyWgiDpwcLDzt/NxabL1+p23UeN3cJJzzEPWGBGvlJbb+Joab8Xd0EKD13gPcyGLhR8EUxMvrZ7RK/a4kruQYPd8yrxwqI5zs6rxAyW/ku+BIsIca6KaL2PJuIngsM43ndXhRELzmkxjtslOD/FTId7o9jf3cZxXwTumO5Rx6/tQxQurv2i8t6HzYrM2Lc77pvbQkezT8U9MslgKQh8CRYQBh7+Ly6tiD2VhLjwnwF6+5/vui+Le5oIB4FiX3zm0pXauMcXcUzvU0fYF08d9fYPmmUurh5jn7+LCvt4n3Ryt5xwO8dhsBQEvgVLRP8egyVShMESKcJgiRRhsESKMFgiRRgskSIMlkgRBkukCIMlUoTBEinCYIkUYbBEijBYIkUYLJEiDJZIEQZLpAiDJVKEwRIpwmCJFIkLFi+4ceMW7G3XDEtEQSfyEROWieyQYjclAAAAAElFTkSuQmCC" InformativeScreenshot="26c14444690e5989cc8e4faff1502a0a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='DMS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                      </uix:NTypeInto.Target>
+                                    </uix:NTypeInto>
+                                    <uix:NClick ClickType="Single" DisplayName="Click 'I'" sap:VirtualizedContainerService.HintSize="358,159.333333333333" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e65a4cb9-11a5-4a32-992d-acefc59be852" Version="V3">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://dms-prod.hpcloud.hp.com/home" DesignTimeRectangle="946, 322, 34, 36" DesignTimeScaleFactor="1.5" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl parentid='admin-bar' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='admin-bar' tag='I' type='' class='fa fa-search' aaname='' /&gt;" Guid="cbc9b3ed-9020-4064-b840-b4c4c35e8db7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAoCAYAAACSN4jeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALESURBVFhHzZfLahRBFIbzAr6BaxfuBTeCuBEXIi4EEVwK4sKNoPgCgltREYIgEYyCopKgxETRSDCgCRrJmDgJc2szmTiZS+Z+PdZpq0x1+1d6ephoHfiY4ZvTXSd1Od0ZGrodISuB0gagtAEobQBKG4DSBqC0AShtAEobgNIGoLQBKAM4/CxO95cLFC00aKvZcSk0OrSYq9OtrznaP7oKrwsFlAZ4wIlkmRqdLu0UlVaHRqNF2jsShffpCSgBJ16mKFFqyqGDg0v/nK3RwScxeL9AoPRxbDxJKVBUrd2l5XyDvmTrtFpsUgvMJP/W19JCqbFneIleO2U5zO+otrp0ZzH311JxAY9Wip6l5m/s9LyegFLj4vt1KovNrSJfb7sO5Squz2fd2VSxKa45/cqBuUag1BiPl+TtiXism+LUoTw/PEuqNP68+y0P84xAKTnwOEaxre29FRffe93MZyYdyomZUjG3UYN5RqCUnJpw3GVQ8capwDwT3NdU8OE59DQO8yBQSs5O/XCbp4qpVBnmmZhdr8oriZxyi448T8A8CJQSXg7u6CrCFqbP2EAL46nX+xc/gvY9WIG5fo6/SFKm2pJXEi2IfobyjECpMb1Wkbcmtz9dm8vCPD/3lgqk99uH4hGF8oxAqXF1NuPpSTyD/HhCuQruc9zvVJTEPr0wnYa5RqDU4M7/URx1PX7W2nTlQwbm3ljY9BwY/pP4we/PDQRKH9y1N6rbM8DBA/KGHhMNeES8Ak2Kg8EFa6v3J76LvcnPW3RvI1ACzr9Le3pa2AhdHJQGjo4l3A6OZkUPfsv4JPL0VsMRqjgoAzj3do1m0lV3YFUkn4+sWEreTyfl4bgs9mHfxUE5QPouDsoB4y+O+1vgWwqUu4BeHP9PcGlm53e6f1YYwy8Fw5G8+4l+9wClDUBpA1DaAJQ2AKUNQPnfidAvTfCyiPIPgxUAAAAASUVORK5CYII=" InformativeScreenshot="71e956351b48f3138a18ea1999c30dc7.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='DMS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ueab:ExcelForEachRowX.Body>
+                            </ueab:ExcelForEachRowX>
+                          </Sequence>
+                        </ActivityAction>
+                      </ueab:ExcelApplicationCard.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ueab:ExcelApplicationCard>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[Notes.Sheet(&quot;Scratchpad&quot;).DataTableOutValue]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='File Name' ReferenceIdx='0' Name='File Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Folder Path' ReferenceIdx='1' Name='Folder Path'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Document Number' ReferenceIdx='2' Name='Document Number'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Site' ReferenceIdx='3' Name='Site'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Revision' ReferenceIdx='4' Name='Revision'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Title' ReferenceIdx='5' Name='Title'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Actions' ReferenceIdx='6' Name='Actions'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='File Name' attr='text' /&gt;&lt;column name='Folder Path' attr='text' /&gt;&lt;column name='Document Number' attr='text' /&gt;&lt;column name='Site' attr='text' /&gt;&lt;column name='Revision' attr='text' /&gt;&lt;column name='Title' attr='text' /&gt;&lt;column name='Actions' attr='text' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="510,160" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="e65a4cb9-11a5-4a32-992d-acefc59be852" Version="V3">
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="473, 394, 1325, 860" DesignTimeScaleFactor="1.5" FriendlyName="'File Name'" FullSelectorArgument="&lt;webctrl id='detailedTable' tag='TABLE' /&gt;" Guid="88bc10b8-37f4-4911-bf8a-58d50c30c70c" InformativeScreenshot="4c73bb5555c4dca8358d461934663371.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='DMS' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachFileX.Body>
+            </ui:ForEachFileX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAeCAYAAAA/xX6fAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAALASURBVEhLlZY/aFNRFMaDYmlt0zyTULXWpopO4h8cRbGD4OLQQRDpEsTJqYudOhQc7BgcnByKg5NiFVwUJIKD4mBFUAeHWiqOxgougtfzJe/cntx89730wA/67nv5vvb1fCen4Jzrm0NHjs8Iy0Jrx2D539Dovq/F8sRt9mwMemgR8VNCAyaCUwoDiQfmu0v735cqB68wDQs9FMEpYVFYU4MQa2jZOVT5O5yMN0vVybNM2/8gIokwJ6yqaIyrs9fc9IVL1NCya7j6Z2TP+OOkOlnzhiJQF1asYB5v3r5zK0+fUZMYg8W9P4rlA/dgSEVjnDt/UX7RTk0dPUHFM2GiWTx89CS1c275/gMumoWINEPRGCdPn0mtOtVq/XLJWI0LEwZGxn5uy7Bx525qtVWLt5aoOEMNkTFqELK5+Tu12aq1b+tUnIGswhB5owaWm/MLqYVzGxvf20Za9es3qEEI8glDjCtqYoGJFsxhorX64SM1CMEYhOF0KB6CoGvhtaJ50CxoGq1+BsFoZWIOhhhj1EhB0LUQC5xBALHQ6mcQYNzpWOsxUWzQUbjGOQQQfFt5g0CqM0tFoOubwGKDjv8jXq/OUmCbJ2sQ4BtFHvGGNIth0PMqaxAgg/KIN6TDmwU9r2KDAMNbbntDmkUb9E+fv7SbR2m+eu1BLLRigwAZlNtxQxt0FF6vvW/FwuZhgyA07MmiDbpGwRIKIhZabBAgg3KLG9qgo3Bt74NQcObybPp0p8JBEBpivfBiz1+8bH8Ihb/U3lOsmGIjEg4CXTPahkBEcncZixXLA7uN+njD1BT7TXRTszDhEGxw2GOsR5chEDG8XnRtdPoAZqBgqqAr7bamdF1YRBTG2LK3ZYhtnBkp9NAi4vg26Rl9oRFGV2z5tdBDhpggOr6x1AgNoS3fD/QwCzGr1w4fW2cNkY8r/Aec+ne+oeIc1AAAAABJRU5ErkJggg==" InformativeScreenshot="312f946ed393d515c61f162b930cde82.jpg" Selector="&lt;html app='msedge.exe' title='DMS' /&gt;" Url="https://dms-prod.hpcloud.hp.com/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>
