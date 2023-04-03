@@ -87,6 +87,7 @@
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="705.6,2535.2" sap2010:WorkflowViewState.IdRef="SequenceX_1">
@@ -98,13 +99,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="662.4,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1">
-      <ui:MessageBox.Text>
-        <InArgument x:TypeArguments="x:Object">
-          <ui:AskWhenRun x:TypeArguments="x:Object" />
-        </InArgument>
-      </ui:MessageBox.Text>
-    </ui:MessageBox>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="662.4,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[string.Format(&quot;Testing&quot;)]" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: DMS" sap:VirtualizedContainerService.HintSize="662.4,2320" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e65a4cb9-11a5-4a32-992d-acefc59be852" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
