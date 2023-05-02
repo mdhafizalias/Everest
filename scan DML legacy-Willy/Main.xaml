@@ -92,7 +92,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="672.8,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[string.Format(&quot;hello all testing here &quot;)]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="672.8,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[string.Format(&quot;hello all testing here to see if file works&quot;)]" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Browser Chrome: DMS" sap:VirtualizedContainerService.HintSize="672.8,2500" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7d0c6da9-3496-426d-af7b-8f43b19c4a4d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
