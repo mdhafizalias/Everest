@@ -6,13 +6,13 @@
     "BenefitsLibrary": "[1.0.4]",
     "CheckStudioRuns": "[0.0.30]",
     "RequiredActivities": "[0.1.0]",
-    "UiPath.ComplexScenarios.Activities": "[1.4.0-preview]",
-    "UiPath.Excel.Activities": "[2.20.0-preview]",
-    "UiPath.Mail.Activities": "[1.18.2]",
-    "UiPath.Presentations.Activities": "[1.11.0-preview]",
-    "UiPath.System.Activities": "[23.4.1-preview]",
-    "UiPath.UIAutomation.Activities": "[23.4.1-preview]",
-    "UiPath.Word.Activities": "[1.16.0-preview]"
+    "UiPath.ComplexScenarios.Activities": "[1.4.0]",
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.19.0]",
+    "UiPath.Presentations.Activities": "[1.11.0]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.UIAutomation.Activities": "[23.4.5]",
+    "UiPath.Word.Activities": "[1.16.0]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -27,6 +27,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
