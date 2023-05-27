@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="883.333333333333,1922.66666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:uascw="clr-namespace:UiPath.Activities.System.Compression.Workflow;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1322.66666666667,4840" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:uascw="clr-namespace:UiPath.Activities.System.Compression.Workflow;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="96">
       <x:String>System.Activities</x:String>
@@ -107,7 +107,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="628,1858" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="1332.66666666667,4775.33333333333" sap2010:WorkflowViewState.IdRef="SequenceX_1">
     <ueab:SequenceX.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=True,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
       <Variable x:TypeArguments="si:FileInfo" Name="Downloaded_file" />
@@ -128,7 +128,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Start of BOT" AttachMode="ByInstance" DisplayName="Browser Chrome: DMS Website : Last saved 23May23" sap:VirtualizedContainerService.HintSize="586,1770.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7d0c6da9-3496-426d-af7b-8f43b19c4a4d" Version="V2">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Start of BOT" AttachMode="ByInstance" DisplayName="Browser Chrome: DMS Website : Last saved 23May23" sap:VirtualizedContainerService.HintSize="1290.66666666667,4688" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7d0c6da9-3496-426d-af7b-8f43b19c4a4d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -139,13 +139,13 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="552,1520.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1256.66666666667,4438" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check if window needs 'Log on'" sap:VirtualizedContainerService.HintSize="510,54" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="7d0c6da9-3496-426d-af7b-8f43b19c4a4d" Version="V3">
+            <uix:NCheckState DisplayName="Check if window needs 'Log on'" sap:VirtualizedContainerService.HintSize="1214.66666666667,54" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="7d0c6da9-3496-426d-af7b-8f43b19c4a4d" Version="V3">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,275.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_18">
                   <sap:WorkflowViewStateService.ViewState>
@@ -192,7 +192,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <Sequence DisplayName="Prepare DMS for document scan" sap:VirtualizedContainerService.HintSize="510,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_26">
+            <Sequence DisplayName="Prepare DMS for document scan" sap:VirtualizedContainerService.HintSize="1214.66666666667,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_26">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -210,7 +210,7 @@
                 </uix:NTypeInto.Target>
               </uix:NTypeInto>
             </Sequence>
-            <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.xlsx" Folder="C:\Temp\Everest\Document masterlist\CJA" sap:VirtualizedContainerService.HintSize="510,83.3333333333333" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="CreationDateNewFirst" SkipFolderWithoutPermission="False">
+            <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.xlsx" Folder="C:\Temp\Everest\Document masterlist\CJA" sap:VirtualizedContainerService.HintSize="1214.66666666667,2715.33333333333" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="CreationDateNewFirst" SkipFolderWithoutPermission="False">
               <ui:ForEachFileX.Body>
                 <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                   <ActivityAction.Argument1>
@@ -219,14 +219,14 @@
                   <ActivityAction.Argument2>
                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                   </ActivityAction.Argument2>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582.666666666667,928.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1180.66666666667,2450.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_17">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:WriteCellX Cell="[Notes.Sheet(&quot;File&quot;).Cell(&quot;FullFileName_Input&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="540.666666666667,163.333333333333" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[CurrentFile.FullName]" />
-                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" sap2010:Annotation.AnnotationText="Use Masterlist&#xA;&#xA;Directory to change based on file location" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="540.666666666667,632.666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" TemplatePath="C:\Temp\Everest\Document masterlist\Document Masterlist Everest Template.xlsx" UseTemplate="True" WorkbookPath="[Notes.Sheet(&quot;File&quot;).Cell(&quot;FullFileName_Input&quot;)]">
+                    <ueab:WriteCellX Cell="[Notes.Sheet(&quot;File&quot;).Cell(&quot;FullFileName_Input&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="1138.66666666667,163.333333333333" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[CurrentFile.FullName]" />
+                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" sap2010:Annotation.AnnotationText="Use Masterlist&#xA;&#xA;Directory to change based on file location" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="1138.66666666667,2154.66666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" TemplatePath="C:\Temp\Everest\Document masterlist\Document Masterlist Everest Template.xlsx" UseTemplate="True" WorkbookPath="[Notes.Sheet(&quot;File&quot;).Cell(&quot;FullFileName_Input&quot;)]">
                       <ueab:ExcelApplicationCard.Body>
                         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                           <ActivityAction.Argument>
@@ -237,13 +237,13 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="506.666666666667,270" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1104.66666666667,1792" sap2010:WorkflowViewState.IdRef="Sequence_3">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ueab:ExcelForEachRowX DisplayName="Scan, edit, download, update For Each Document Row in DML" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="464.666666666667,83.3333333333333" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[OldDML.Sheet(&quot;Documents&quot;).Range(&quot;D1:H200&quot;)]" SaveAfterEachRow="False">
+                            <ueab:ExcelForEachRowX DisplayName="Scan, edit, download, update For Each Document Row in DML" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="1062.66666666667,83.3333333333333" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[OldDML.Sheet(&quot;Documents&quot;).Range(&quot;D1:H200&quot;)]" SaveAfterEachRow="False">
                               <ueab:ExcelForEachRowX.Body>
                                 <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                                   <ActivityAction.Argument1>
@@ -257,13 +257,13 @@
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="492,271.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="548,1078.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Sequence DisplayName="Retrieve Doc Number from DML &amp; DMS" sap:VirtualizedContainerService.HintSize="450,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                    <Sequence DisplayName="Retrieve Doc Number from DML &amp; DMS" sap:VirtualizedContainerService.HintSize="604.666666666667,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -321,7 +321,7 @@
                                         </sap:WorkflowViewStateService.ViewState>
                                       </Delay>
                                     </Sequence>
-                                    <If Condition="[CurrentRow.ByField(&quot;Revision&quot;) &lt;&gt; New_Revision]" DisplayName="If DML Revision is not the same as DMS..." sap:VirtualizedContainerService.HintSize="450,54" sap2010:WorkflowViewState.IdRef="If_1">
+                                    <If Condition="[CurrentRow.ByField(&quot;Revision&quot;) &lt;&gt; New_Revision]" DisplayName="If DML Revision is not the same as DMS..." sap:VirtualizedContainerService.HintSize="604.666666666667,54" sap2010:WorkflowViewState.IdRef="If_1">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -471,10 +471,11 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ueab:ExcelForEachRowX>
-                            <If Condition="[New_Doc_Detected]" sap:VirtualizedContainerService.HintSize="464.666666666667,54" sap2010:WorkflowViewState.IdRef="If_3">
+                            <ueab:WriteCellX Cell="[OldDML.Sheet(&quot;Revision History&quot;).Cell(&quot;F2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="1062.66666666667,163.333333333333" sap2010:WorkflowViewState.IdRef="WriteCellX_9" Value="[Notes.Sheet(&quot;File&quot;).Cell(&quot;ScanDate&quot;)]" />
+                            <If Condition="[New_Doc_Detected]" sap:VirtualizedContainerService.HintSize="1062.66666666667,1372.66666666667" sap2010:WorkflowViewState.IdRef="If_3">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
@@ -508,20 +509,31 @@
                                 </Sequence>
                               </If.Then>
                               <If.Else>
-                                <Sequence sap:VirtualizedContainerService.HintSize="300,146.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                <Sequence sap:VirtualizedContainerService.HintSize="478.666666666667,314" sap2010:WorkflowViewState.IdRef="Sequence_23">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="258,54" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[string.Format(&quot;I got Scan, but cannot find any new document leh! waste my time lah!&quot;)]">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                  </ui:MessageBox>
+                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436.666666666667,221.333333333333" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                                    <ui:CommentOut.Body>
+                                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="300,141.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="258,54" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[string.Format(&quot;I got Scan, but cannot find any new document leh! waste my time lah!&quot;)]">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </ui:MessageBox>
+                                      </Sequence>
+                                    </ui:CommentOut.Body>
+                                  </ui:CommentOut>
                                 </Sequence>
                               </If.Else>
                             </If>
@@ -541,52 +553,84 @@
               </ui:ForEachFileX.Body>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEachFileX>
-            <uascw:CompressFiles CompressedResource="{x:Null}" Password="{x:Null}" ResourcesToArchive="{x:Null}" SecurePassword="{x:Null}" CodePage="Default" CompressedFileInfo="[Zip_Folder]" CompressedFileName="[Notes.Sheet(&quot;File&quot;).Cell(&quot;NewRevisionFileName&quot;)]" CompressionLevel="Normal" DisplayName="Compress/Zip Files" EncryptionAlgorithm="Classic" sap:VirtualizedContainerService.HintSize="510,219.333333333333" sap2010:WorkflowViewState.IdRef="CompressFiles_1" OverrideExistingFile="True">
-              <uascw:CompressFiles.ContentToArchive>
-                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                  <InArgument x:TypeArguments="x:String">[Notes.Sheet("File").Cell("New_Zip_Folder_Path")]</InArgument>
-                </scg:List>
-              </uascw:CompressFiles.ContentToArchive>
-            </uascw:CompressFiles>
-            <umab:OutlookApplicationCard Account="{x:Null}" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="510,829.333333333333" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
-              <umab:OutlookApplicationCard.Body>
-                <ActivityAction x:TypeArguments="um:IMailQuickHandle">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,638.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_36">
+            <If Condition="[New_Doc_Detected]" sap:VirtualizedContainerService.HintSize="1214.66666666667,1374" sap2010:WorkflowViewState.IdRef="If_4">
+              <If.Then>
+                <Sequence sap:VirtualizedContainerService.HintSize="552,1178.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uascw:CompressFiles CompressedResource="{x:Null}" Password="{x:Null}" ResourcesToArchive="{x:Null}" SecurePassword="{x:Null}" CodePage="Default" CompressedFileInfo="[Zip_Folder]" CompressedFileName="[Notes.Sheet(&quot;File&quot;).Cell(&quot;NewRevisionFileName&quot;)]" CompressionLevel="Normal" DisplayName="Compress/Zip Files" EncryptionAlgorithm="Classic" sap:VirtualizedContainerService.HintSize="510,219.333333333333" sap2010:WorkflowViewState.IdRef="CompressFiles_1" OverrideExistingFile="True">
+                    <uascw:CompressFiles.ContentToArchive>
+                      <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                        <InArgument x:TypeArguments="x:String">[Notes.Sheet("File").Cell("New_Zip_Folder_Path")]</InArgument>
+                      </scg:List>
+                    </uascw:CompressFiles.ContentToArchive>
+                  </uascw:CompressFiles>
+                  <umab:OutlookApplicationCard Account="{x:Null}" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="510,829.333333333333" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
+                    <umab:OutlookApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="um:IMailQuickHandle">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,638.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <umab:SendMailX Bcc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Outlook]" Body="[string.Format(&quot;Team 6,{0}cc CM Engineering team{1}{2}Willy can't wait to finish off the coding of Everest to :{3}1. Zip the folder containing Document masterlist Newest revision and newly detected documents{4}2. Email delivery of zipped folder to internal, PDL and external parties.(hotmail.com){5}{6}Hello! You receive this mail with zip attachment from me(Frankenstein Everest). {7}{8}Nice meeting you!{9}{10}Cheers{11}Everest Soon-to-be&quot;, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine)]" BodyType="Text" Cc="reddi.radha.b@hp.com; pratheeksha.lazarus@hp.com; ho_willy@hotmail.com" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,424" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="[string.Format(&quot;Frankenstein Everest : &quot;&quot; Hello CM Engineers! &quot;&quot;&quot;)]" To="muhammad.hafiz.bin.mohd.alias@hp.com; poh-ling.chang@hp.com; serene.ng@hp.com&gt;; li-wan.lim@hp.com;" UseDocumentAsBody="False">
+                            <umab:SendMailX.Files>
+                              <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                                <InArgument x:TypeArguments="x:String">[Zip_Folder.Name]</InArgument>
+                              </scg:List>
+                            </umab:SendMailX.Files>
+                            <umab:SendMailX.HtmlBodyFromFile>
+                              <umabh:HtmlContentArgument FilePath="{x:Null}">
+                                <umabh:HtmlContentArgument.RuntimeImages>
+                                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                                </umabh:HtmlContentArgument.RuntimeImages>
+                                <umabh:HtmlContentArgument.ValueMappings>
+                                  <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="0" />
+                                </umabh:HtmlContentArgument.ValueMappings>
+                              </umabh:HtmlContentArgument>
+                            </umab:SendMailX.HtmlBodyFromFile>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </umab:SendMailX>
+                          <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="DeleteFileX_2" Path="[Zip_Folder.Name]" />
+                        </Sequence>
+                      </ActivityAction>
+                    </umab:OutlookApplicationCard.Body>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <umab:SendMailX Bcc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Outlook]" Body="[string.Format(&quot;Team 6,{0}cc CM Engineering team{1}{2}Willy got some time and can't wait but to finish off the coding of Everest to make it {3}1.Zip the folder containing Document masterlist Newest revision and newly detected documents{4}2. Email delivery of zipped folder to internal, PDL and external parties.(hotmail.com){5}{6}Hello! You receive this mail with zip attachment through me, Frankenstein Everest. Nice to meet you!{7}{8}Cheers{9}Everest Soon-to-be&quot;, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine)]" BodyType="Text" Cc="pdloscmengrs@hp.com;ho_willy@hotmail.com" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,424" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="[string.Format(&quot;Frankenstein Everest : &quot;&quot; Hello CM Engineers! &quot;&quot;&quot;)]" To="li-wan.lim@hp.com;willy-el.ho@hp.com;poh-ling.chang@hp.com;Ng, serene.ng@hp.com" UseDocumentAsBody="False">
-                      <umab:SendMailX.Files>
-                        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                          <InArgument x:TypeArguments="x:String">[Zip_Folder.Name]</InArgument>
-                        </scg:List>
-                      </umab:SendMailX.Files>
-                      <umab:SendMailX.HtmlBodyFromFile>
-                        <umabh:HtmlContentArgument FilePath="{x:Null}">
-                          <umabh:HtmlContentArgument.RuntimeImages>
-                            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-                          </umabh:HtmlContentArgument.RuntimeImages>
-                          <umabh:HtmlContentArgument.ValueMappings>
-                            <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="0" />
-                          </umabh:HtmlContentArgument.ValueMappings>
-                        </umabh:HtmlContentArgument>
-                      </umab:SendMailX.HtmlBodyFromFile>
-                    </umab:SendMailX>
-                    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="DeleteFileX_2" Path="[Zip_Folder.Name]" />
-                  </Sequence>
-                </ActivityAction>
-              </umab:OutlookApplicationCard.Body>
-            </umab:OutlookApplicationCard>
+                  </umab:OutlookApplicationCard>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_39">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
